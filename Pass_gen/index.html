@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="init.js" defer></script>
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="container-header">
+
+        <div class="header-password">
+            <span id="pass">l823Zs78#Css09@</span>
+            <button id="copy">Copy</button>
+        </div>
+
+    </div>
+<!--    The card-->
+    <div class="container-body">
+
+        <div class="body-layer">
+
+            <label for="length">Password Length</label>
+            <input id="length" value="15" type="number" min="2" max="30" />
+
+        </div>
+        <div class="body-layer">
+
+            <label for="upperCase">Contain Uppercase Letters</label>
+            <input id="upperCase" type="checkbox" />
+
+        </div>
+        <div class="body-layer">
+
+            <label for="lowerCase">Contain Lowercase Letters</label>
+            <input id="lowerCase" type="checkbox" />
+
+        </div>
+        <div class="body-layer">
+
+            <label for="nums">Contain Numbers</label>
+            <input id="nums" type="checkbox" />
+
+        </div>
+        <div class="body-layer">
+
+            <label for="special_symbols">Contain Symbols</label>
+            <input id="special_symbols" type="checkbox" />
+
+        </div>
+
+        <button class="generator" id="generatePass">Generate Password</button>
+
+    </div>
+
+</div>
+
+</body>
+</html>
