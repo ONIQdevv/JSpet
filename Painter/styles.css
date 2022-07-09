@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+/* Upper You can find some styles imports */
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    min-height: 100vh;
+    background-color: #12100E;
+    font-family: "Lato", sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+
+}
+
+#drawable {
+    background-color: #918c80;
+    border: 4px solid rgba(255, 255, 0, 0.64);
+
+    margin: 50px;
+
+}
+
+.toolkit {
+    width: 800px;
+    background-color: #12100E;
+    border: 1px solid #12100E;
+
+    display: flex;
+    padding: 1em;
+
+}
+
+.toolkit {
+    height: 50px;
+    width: 500px;
+    background-color: #12100E;
+    font-size: 2em;
+    border: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5em;
+    margin: 0.25em;
+
+}
